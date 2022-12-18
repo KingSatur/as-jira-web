@@ -17,6 +17,7 @@ export const uiReducer = (state: UIState, action: UIActionType): UIState => {
     case "Close":
       return {
         ...state,
+        sidemenuOpen: false,
       };
     case "Change Adding Entry Status":
       return {

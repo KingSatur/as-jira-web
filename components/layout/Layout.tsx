@@ -1,9 +1,8 @@
 import { Box } from "@mui/material";
 import Head from "next/head";
-import React, { FC, PropsWithChildren, useContext } from "react";
-import { UIContext } from "../../context";
-import { Navbar } from "../ui";
-import { Sidebar } from "../ui/Sidebar";
+import React, { FC, PropsWithChildren } from "react";
+import { Navbar } from "./Navbar";
+import { Sidebar } from "./Sidebar";
 
 interface Props {
   title?: string;
